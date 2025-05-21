@@ -3,13 +3,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 15px;
     background-color: #f8f9fa;
+}
+
+@media (min-width: 576px) {
+    .login-container {
+        padding: 20px;
+    }
 }
 
 .button-group {
     display: flex;
+    flex-direction: column;
     gap: 10px;
-    justify-content: flex-end;
+    justify-content: center;
     margin-top: 20px;
+}
+
+@media (min-width: 576px) {
+    .button-group {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
 }

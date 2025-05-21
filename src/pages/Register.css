@@ -3,13 +3,45 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 15px;
     background-color: #f8f9fa;
+}
+
+@media (min-width: 576px) {
+    .register-container {
+        padding: 20px;
+    }
 }
 
 .button-group {
     display: flex;
+    flex-direction: column;
     gap: 10px;
-    justify-content: flex-end;
+    justify-content: center;
     margin-top: 20px;
+}
+
+@media (min-width: 576px) {
+    .button-group {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}
+
+/* Card responsive width */
+.register-container .custom-card {
+    width: 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 576px) {
+    .register-container .custom-card {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .register-container .custom-card {
+        max-width: 500px;
+    }
 }
