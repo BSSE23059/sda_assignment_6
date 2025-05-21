@@ -2,7 +2,7 @@
   "name": "sda_assignment_6",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://BSSE23059.github.io/sda_assignment_6",
+  "homepage": "https://BSSE23059.github.io/sda_assignment_6/",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "@testing-library/jest-dom": "^5.17.0",
